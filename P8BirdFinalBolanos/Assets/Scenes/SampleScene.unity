@@ -244,7 +244,7 @@ SpriteRenderer:
   m_SortingLayerID: 53590327
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2144165773, guid: b357f151829c44b4ab6da4d0e2abb374, type: 3}
+  m_Sprite: {fileID: -1594551262, guid: 5aca8c45497d5354c9ca12ca6e5f05b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -264,8 +264,8 @@ Transform:
   m_GameObject: {fileID: 405490740}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.072, y: -0.305, z: 0}
+  m_LocalScale: {x: 1.1283051, y: 1.1013858, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -306,7 +306,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.13, y: 0.67}
+    oldSize: {x: 1.0266666, y: 0.99}
     newSize: {x: 1.13, y: 0.67}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -314,21 +314,24 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.565, y: 0.005}
-      - {x: 0.525, y: 0.044999998}
-      - {x: 0.285, y: 0.235}
-      - {x: 0.005, y: 0.33499998}
-      - {x: -0.285, y: 0.33499998}
-      - {x: -0.345, y: 0.325}
-      - {x: -0.48499998, y: 0.24499999}
-      - {x: -0.565, y: 0.105}
-      - {x: -0.565, y: -0.145}
-      - {x: -0.545, y: -0.24499999}
-      - {x: -0.39499998, y: -0.33499998}
-      - {x: 0.21499999, y: -0.33499998}
-      - {x: 0.435, y: -0.185}
-      - {x: 0.555, y: -0.105}
-      - {x: 0.565, y: -0.044999998}
+    - - {x: 0.4898087, y: -0.22371343}
+      - {x: 0.4821327, y: -0.0076019}
+      - {x: 0.3706007, y: 0.16848937}
+      - {x: 0.24432583, y: 0.28156942}
+      - {x: 0.097381026, y: 0.31013906}
+      - {x: -0.024395, y: 0.36816764}
+      - {x: -0.018873364, y: 0.3105736}
+      - {x: -0.120601386, y: 0.28099194}
+      - {x: -0.18423152, y: 0.23900428}
+      - {x: -0.2665666, y: 0.15746593}
+      - {x: -0.33987057, y: 0.03323683}
+      - {x: -0.35054392, y: -0.072375625}
+      - {x: -0.3600822, y: -0.21539806}
+      - {x: -0.26424968, y: -0.37144005}
+      - {x: -0.032012045, y: -0.4589105}
+      - {x: 0.07028283, y: -0.4646158}
+      - {x: 0.25217918, y: -0.46299893}
+      - {x: 0.41213563, y: -0.3757741}
   m_UseDelaunayMesh: 0
 --- !u!114 &405490745
 MonoBehaviour:
@@ -1275,8 +1278,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colummPoolSize: 5
-  colummPrefab: {fileID: 0}
+  colummPrefab: {fileID: 2289530322885248420, guid: 38244fe39dbfc8c4ba97dd98da372339, type: 3}
   spawnRate: 4
+  colummMin: -3
+  colummMax: 2
 --- !u!1 &2092734149
 GameObject:
   m_ObjectHideFlags: 0
